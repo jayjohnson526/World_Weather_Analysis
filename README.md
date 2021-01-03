@@ -7,8 +7,8 @@ The goal of this project is to collect weather data from cities around the world
 
 
 ## Resources
-- [](https://openweathermap.org/api "OpenWeatherMap API")
-- [](https://developers.google.com/maps/documentation "Google Maps APIs")
+- OpenWeatherMap API
+- Google Maps APIs
 - Jupyter Notebook 
 - Python (version 3.8.5)
 
@@ -18,14 +18,14 @@ The following trip is an example of a vacation planned using the resources above
 
 In the Vacation_Search.ipynb file under the Vacation_Search folder, the customer is asked to provide a minimum and maximum temperature for the cities they would like to visit. Here, our range is 70-99 degrees Farenheight. This outputs a map with cities across the world that currently fall into that temperature range:
 
-[](!Vacation_Search/WeatherPy_vacation_map.png)
+![](Vacation_Search/WeatherPy_vacation_map.png)
 
 
 This map contains markers giving the user city names, hotels, country ID, and the maximum temperature. From here, the user can zoom in on the map to explore destinations. Once the user has decided on a country or general location, the Vacation_Itinerary.ipynb file in the Vacation_Itinerary folder can be used to generate a trip itinerary based on nearby cities they would like to visit. The user will specify the start and end location, as well as stops along the way. This will generate a map with driving directions similar to the following:
 
-[](!Vacation_Itinerary/WeatherPy_travel_map.png)
+![](Vacation_Itinerary/WeatherPy_travel_map.png)
 
 
 Lastly, the user can select the markers on the itinerary map to see the name of the hotel, city, country ID, and current description:
 
-[](!Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+![](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
